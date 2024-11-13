@@ -200,7 +200,7 @@
 
 
     <div id="qr_code">
-        {% i qr_code %}
+        {% if qr_code %}
             <img src="data:image/png;base64,{{ qr_code }}" alt="QR Code">
         {% endif %}
     </div>
