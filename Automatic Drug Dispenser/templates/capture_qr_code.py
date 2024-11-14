@@ -10,6 +10,6 @@ while True:
     cv2.imshow("QRCODEscanner", img)    
     if cv2.waitKey(1) == ord("q"):
         break
-prit
+
 cap.release()
 cv2.destroyAllWindows()
